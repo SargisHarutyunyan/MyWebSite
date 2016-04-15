@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf8'>
+<link rel="stylesheet">
+<title>Всплывающее окно</title>
+<style type="text/css">
+	
+	
+	
+	#window{
+
+
+		width: 50%;
+	    margin: 25px auto;
+	    display: none;
+	    background: #fff;
+	    z-index: 200;
+	    position: fixed;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    padding: 10px;
+	    padding-bottom: 60px;
+	}
+
+	#ava{
+
+		width: 100%;
+		height: 100%;
+
+	}
+	
+	.close{
+		margin-left: 364px;
+		margin-top: 4px;
+		cursor: pointer;
+	}
+	.city {
+            float: left;
+            margin-left: 15px;
+            padding: 15px;
+            width: 20%;
+            border-radius: 50px/15px;
+            border: 2px solid #73AD21;
+    } 
+    .city h2{
+          text-align: center;
+        }
+
+    .city img{
+          width: 100%;
+          height: 100%;
+          border-radius: 29%;
+          border: 2px solid black;
+        }
+
+     .more{
+     	display: none;
+     }  
+    .city:hover{
+
+    	
+    	box-shadow: 0px 0px 20px #000000;
+		background-image: -moz-linear-gradient(top, #ffffff, #000000);
+		background-image: -o-linear-gradient(top, #ffffff, #000000);
+		background-image: -webkit-linear-gradient(top, #ffffff, #000000);
+		background-image: linear-gradient(top, #ffffff, #000000);
+		background-clip: padding-box;
+
+		    }   
+      
+        body h1 {
+          text-align: center;
+          border-bottom: 5px solid black;
+        }
+
+        body h1:hover{
+          border-left: 25px solid green;
+          border-right: 25px solid green;
+          border-bottom: 5px solid green;
+        }
+
+        header{
+          float: left;
+          background-color: #2bbbad;
+        }
+</style>
+</head>
+<body>
+		<script type="text/javascript">
+
+					//Функция показа
+			function show(state){
+
+					document.getElementById('window').style.display = state;			
+								
+			}
+			
+		</script>
+					
+		<div id="wrap">
+		
+		  <header>
+			  <h1>Our Employees </h1>
+
+			  <div class="city" onclick="show('block')">
+				  <h2 >Employees 1</h2>
+				  <img src="employees1.png">
+				  <p>FRONT END DEVELOPER (HTML5/CSS3)</p>
+				  <p class = "more">More</p>
+			  </div>
+			  <div class="city" onclick="show('block')">
+				  <h2 >Employees 2</h2>
+				  <img src="employees2.png">
+				  <p>Android Developer</p>
+				  <p class = "more">More</p>
+			  </div>
+
+			  <div class="city" onclick="show('block')">
+				  <h2 >Employees 3</h2>
+				  <img src="employees3.png">
+				  <p>JAVASCRIPT DEVELOPER</p>
+				  <p class = "more">More</p>
+			  </div>
+
+			  <div class="city" onclick="show('block')">
+				  <h2 >Employees 4</h2>
+				  <img src="employees4.png">
+				  <p>FRONT END DEVELOPER (HTML5/CSS3)</p>
+				  <p class = "more">More</p>
+			  </div>
+			  </div>
+
+					<!-- Само окно-->
+			<div id="window">
+						
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
+					
+						<!-- Картинка-->
+				<img id = "ava" src="ava.png">
+				  
+		</div>
+		</header>
+		
+		
+		</div>
+
+					<!-- Само окно-->
+			<div id="window">
+						
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
+					
+						<!-- Картинка-->
+				<img id = "ava" src="ava.png">
+				  
+		</div>
+
+			
+	
+	
+		
+		
+</body>
+</html>
