@@ -6,15 +6,12 @@
 
 
 body {
-  background: #ddd;
+  background: #47c9af;
 }
 
 /********* It is a carousel ******************/ 
 
-#first_section{
 
-	
-}
 
 #big-photo{
 	
@@ -23,6 +20,9 @@ body {
 	
 	
 }
+
+
+
 
 
 .small-photo{
@@ -80,11 +80,20 @@ body {
 		  background-color: #005f5f;
 		}
 
+
+
+/************************/
+
+
+
+#first_article{
+	background-color: #47c9af;
+}
+
 #first_article section{
 
 			border-radius: 27px;
 			box-shadow: 0px 0px 10px #000000;
-			opacity: 0.69;
 			background-color: white;
 			float: left;
 			width: 90%;
@@ -95,33 +104,87 @@ body {
 	}
 
 
-/************************/
+#first_section{
 
-.zoomIn:hover{
+	background: #00cdcf;
+	width: 100%;
+}
 
-	box-shadow: 0px 0px 150px #000000;
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
-    
+#first_article section input,button{
+
+	border: 1px solid black;
+}
+
+#zambyuxDiv{
+
+	display: none;
+	width: 15%;
+	height: 200px;
+	border: 1px solid yellow;	
+	background-color: white;
+	float: left;
+	
+
+
+
+}
+
+#big-zambyux{
+	margin-top: 10%;
+	width: 1.5%;
+	height: 200px;
+	border: 1px solid red;	
+	
+	position: fixed;
+}
+
+#small-zambyux{
+	height: 100%;
+    border: 1px solid black;
+    width: 90%;
+    padding: 0 5px;
+    float: left;
+    background-color: white;
+    margin: 0% 0;
 }
 
 
 
 
+
 /************************/
 
 
 
+footer{
+	
+	width: 100%;
+	height: 400px;
+	background-color: black;
+	float: left;
 
+}
 
+footer section {
+    border: 1px solid white;
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
 
+footer section h3{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 15px; 
+}
+
+footer section ul li p{
+	color: white;
+}
 
 
 
@@ -130,7 +193,7 @@ body {
 
 	body{
 
-		background-color:red;
+		background-color:#47c9af;
 
 		}
 
@@ -219,7 +282,49 @@ body {
 
 	}
 
+	#zambyuxDiv{
+	
+	display: none;
+	width: 10%;
+	height: 200px;
+	border: 1px solid yellow;	
+	background-color: white;
+	position: fixed;
 
+
+
+}
+
+footer{
+	
+	width: 100%;
+	height: 750px;
+	background-color: black;
+	float: left;
+
+}
+
+footer section {
+    border: 1px solid white;
+    float: left;
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+
+footer section h3{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 15px; 
+}
+
+footer section ul li p{
+	color: white;
+}
 	
 	
 }
@@ -230,7 +335,7 @@ body {
 	{
 
 	body{
-			background-color:blue;
+			background-color:#47c9af;
 		}
 
 	header{
@@ -310,7 +415,6 @@ body {
 	#first_article section{
 			border-radius: 27px;
 			box-shadow: 0px 0px 10px #000000;
-			opacity: 0.69;
 			background-color: white;
 			margin: 15px 35px;
 			float: left;
@@ -319,9 +423,53 @@ body {
 			text-align: center;
 			padding-bottom: 90px;
 	}
-
-
+#zambyuxDiv{
 	
+	display: none;
+	width: 11%;
+	height: 200px;
+	border: 1px solid yellow;	
+	background-color: white;
+	position: fixed;
+
+
+
+}
+
+	footer{
+	
+	width: 100%;
+	height: 750px;
+	background-color: black;
+	float: left;
+
+}
+
+footer section {
+    border: 1px solid white;
+    float: left;
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+
+footer section h3{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 8px;
+	margin-bottom: 10px; 
+}
+
+footer section ul li p{
+	color: white;
+}
+	
+	
+}
+
 	
 
 }
@@ -332,7 +480,7 @@ body {
 
 
 	body{
-			background-color:yellow;
+			background-color:#47c9af;
 		}
 
 	header{
@@ -424,7 +572,18 @@ body {
 			height: 150px;
 			
 	}
+#zambyuxDiv{
+	
+	display: none;
+	width: 12%;
+	height: 200px;
+	border: 1px solid yellow;	
+	background-color: white;
+	position: fixed;
 
+
+
+}
 
 
 
@@ -439,7 +598,7 @@ body {
 
  	body{
 
-			background-color:green;
+			background-color:#47c9af;
 			
 	}
 		
@@ -481,7 +640,7 @@ body {
 
 #first_section{
 
-	margin-top: 10px;
+	margin-top: 0;
 	background: #444;
 	width: 100%;
 	height: 750px;
@@ -532,6 +691,18 @@ body {
 			height: 250px;
 			
 	}
+#zambyuxDiv{
+	
+	display: none;
+	width: 13%;
+	height: 200px;
+	border: 1px solid yellow;	
+	background-color: white;
+	position: fixed;
+
+
+
+}
 
 	
 
@@ -544,7 +715,7 @@ body {
 
 		body{
 
-			background-color:blue;
+			background-color:#47c9af;
 			
 		}
 
@@ -586,7 +757,7 @@ body {
 
 #first_section{
 
-	margin-top: 40px;
+	margin-top: 0;
 	background: #444;
 	width: 100%;
 	height: 862px;
@@ -639,6 +810,21 @@ body {
 			
 	}
 
+
+
+#zambyuxDiv{
+	
+	margin-left: 0px;	
+	display: none;
+	width: 14%;
+	height: 200px;
+	border: 1px solid yellow;	
+	background-color: white;
+	position: fixed;
+
+
+
+}
 
 	 
 }
