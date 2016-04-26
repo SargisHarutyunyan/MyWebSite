@@ -57,7 +57,7 @@ function close(){
 }
 
 
-var img_right = new Array("bmw.jpg","merc.jpg","shelby.jpg","lamborghini.jpg","ferrari.jpg","bmw45.jpg");
+var img_right = new Array("2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg");
 
 			
 			var i = 0 ;

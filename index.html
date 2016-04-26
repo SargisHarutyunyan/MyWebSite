@@ -7,7 +7,7 @@
 	<meta charset="UTF-8">
 
 </head>
-<body onload = "f()">
+<body onload = "f()" >
 
 	<header>
 		  	<nav class="header_nav">
@@ -16,7 +16,7 @@
 				        	<a href="#">Home</a>
 				        </li>
 				        <li>
-				        	<a href="#">Products</a>
+				        	<a href="#first-bicycle">Bicycles</a>
 				        </li>
 				        <li>
 				        	<a href="#">Company</a>
@@ -53,70 +53,205 @@
 
 			
 	
-				<img id = "big-photo" src="img/bmw.jpg">
+				<img id = "big-photo" src="img/7.jpg">
 
 					<div class = "small-photo">
-						<img  src="img/bmw.jpg" onmouseover = "mouseover1()" onMouseOut= "this.src='img/bmw.jpg'">
+						<img  src="img/2.jpg" onmouseover = "mouseover1()" onMouseOut= "this.src='img/2.jpg'">
 					</div>
 					<div class = "small-photo">
-						<img  src="img/merc.jpg"  onmouseover = "mouseover2()"  onMouseOut= "this.src='img/merc.jpg'">
+						<img  src="img/3.jpg"  onmouseover = "mouseover2()"  onMouseOut= "this.src='img/3.jpg'">
 					</div>
 					<div class = "small-photo">
-						<img  src="img/shelby.jpg" onmouseover = "mouseover3()" onMouseOut= "this.src='img/shelby.jpg'">
+						<img  src="img/4.jpg" onmouseover = "mouseover3()" onMouseOut= "this.src='img/4.jpg'">
 					</div>
 					<div class = "small-photo">
-						<img  src="img/lamborghini.jpg" onmouseover = "mouseover4()" onMouseOut= "this.src='img/lamborghini.jpg'">
+						<img  src="img/5.jpg" onmouseover = "mouseover4()" onMouseOut= "this.src='img/5.jpg'">
 					</div>
 					<div class = "small-photo">
-						<img src="img/ferrari.jpg"  onmouseover = "mouseover5()" onMouseOut= "this.src='img/ferrari.jpg'">
+						<img src="img/6.jpg"  onmouseover = "mouseover5()" onMouseOut= "this.src='img/6.jpg'">
 					</div>
 					<div class = "small-photo">
-						<img src="img/bmw45.jpg"  onmouseover = "mouseover6()"  onMouseOut= "this.src='img/bmw45.jpg'">
+						<img src="img/8.jpg"  onmouseover = "mouseover6()"  onMouseOut= "this.src='img/8.jpg'">
 					</div>
-
-
 	</section>
 
 
 	<article id = "first_article">
 
-		
+			<h1 id="first-bicycle">Best Bicycle</h1>
 
 		<section>
-			Անվադող
-			<p>Գինը 20000դր</p>
-			<img src = "img/shina.png" width = "100%" height = "200px">
+			<p>Specialized Fatboy(Blue)</p>
+			<p>Price: 1500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-fatboy-240489-11.jpg" >
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Specialized Fatboy(White)</p>
+			<p>Price: 1500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-fatboy-240489-1.jpg" >
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Specialized Sirrus Sport</p>
+			<p>Price: 500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-sirrus-sport-copy-236763-1.jpg">
+			<input type = "number" id="inp2" >
+			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		
+		<section>
+			<p>Specialized Sirrus Sport</p>
+			<p>Price: 500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-sirrus-sport-	copy-236763-11.jpg">
+			<input type = "number" id="inp3" >
+			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		<section>
+			<p>Cannondal Quick 5</p>
+			<p>Price: 450$</p>
+			<img src = "http://bikeam.com/images/library/zoom/cannondale-quick-5-copy-237596-11.jpg" >
 
 			<input type = "number" id="inp0"  >
 			<button id = "0" onclick = "count(this)">Ավելացնել</button>
 		</section>
 
 		<section>
-			Յուղ
-			<p>Գինը 15000դր</p>
-			<img src = "img/maslo.png" width = "100%" height = "200px">
+			<p>Cannondale SuperSix</p>
+			<p>Price: 2500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/cannondale-supersix-evo-hi-mod-team-copy-237264-1.jpg">
 			<input type = "number" id="inp1" >
 			<button id = "1" onclick = "count(this)">Ավելացնել</button>
 		</section>
 
 		<section>
-			Լուսարձակ	
-			<p>Գինը 25000դր</p>
-			<img src = "img/fari.png" width = "100%" height = "200px">
+			<p>BMC Granfondo GF01 Disc</p>
+			<p>Price: 350$</p>	
+			<img src = "http://bikeam.com/images/library/zoom/bmc-granfondo-gf01-disc-ultegra-di2-239387-13.jpg">
 			<input type = "number" id="inp2" >
 			<button id = "2" onclick = "count(this)">Ավելացնել</button>
 		</section>
 		
 		<section>
-			Մարտկոց
-			<p>Գինը 18000դր</p>
-			<img src = "img/akku.png" width = "100%" height = "200px">
+			<p>Specialized Venge Pro ViAS</p>
+			<p>Price: 8500$</p>	
+			<img src = "http://bikeam.com/images/library/zoom/specialized-venge-pro-vias-236802-1.jpg">
 			<input type = "number" id="inp3" >
 			<button id = "3" onclick = "count(this)">Ավելացնել</button>
 		</section>
+		<section>
+			<p>BMW 2016 model</p>
+			<p>Price: 15500$</p>
+			<img src = "http://www.log.com.tr/wp-content/uploads/2016/03/bmw-shows-the-2016-bicycle-line-up_5-1000x562.jpg">
+
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>BMW BOOM!!!</p>
+			<p>Price: 25700$</p>
+			<img src = "http://roa.h-cdn.co/assets/cm/14/47/980x551/546b0f3d3cad5_-_bmw-mountainbike-lg.jpeg">
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		
 
 	</article>
 
+
+	<article id = "second_article">
+
+		<h1>Best Bicycle</h1>
+
+		<section>
+			<p>Specialized Fatboy(Blue)</p>
+			<p>Price: 1500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-fatboy-240489-11.jpg" >
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Specialized Fatboy(White)</p>
+			<p>Price: 1500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-fatboy-240489-1.jpg" >
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Specialized Sirrus Sport</p>
+			<p>Price: 500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-sirrus-sport-copy-236763-1.jpg">
+			<input type = "number" id="inp2" >
+			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		
+		<section>
+			<p>Specialized Sirrus Sport</p>
+			<p>Price: 500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-sirrus-sport-	copy-236763-11.jpg">
+			<input type = "number" id="inp3" >
+			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		<section>
+			<p>Cannondal Quick 5</p>
+			<p>Price: 450$</p>
+			<img src = "http://bikeam.com/images/library/zoom/cannondale-quick-5-copy-237596-11.jpg" >
+
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Cannondale SuperSix</p>
+			<p>Price: 2500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/cannondale-supersix-evo-hi-mod-team-copy-237264-1.jpg">
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>BMC Granfondo GF01 Disc</p>
+			<p>Price: 350$</p>	
+			<img src = "http://bikeam.com/images/library/zoom/bmc-granfondo-gf01-disc-ultegra-di2-239387-13.jpg">
+			<input type = "number" id="inp2" >
+			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		
+		<section>
+			<p>Specialized Venge Pro ViAS</p>
+			<p>Price: 8500$</p>	
+			<img src = "http://bikeam.com/images/library/zoom/specialized-venge-pro-vias-236802-1.jpg">
+			<input type = "number" id="inp3" >
+			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		<section>
+			<p>BMW 2016 model</p>
+			<p>Price: 15500$</p>
+			<img src = "http://www.log.com.tr/wp-content/uploads/2016/03/bmw-shows-the-2016-bicycle-line-up_5-1000x562.jpg">
+
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>BMW BOOM!!!</p>
+			<p>Price: 25700$</p>
+			<img src = "http://roa.h-cdn.co/assets/cm/14/47/980x551/546b0f3d3cad5_-_bmw-mountainbike-lg.jpeg">
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		
+
+	</article>
 
 	<section id = "second_section">
 
@@ -128,6 +263,9 @@
 
 		<section>Section3</section>
 -->
+
+
+
 
 		<footer>
 
