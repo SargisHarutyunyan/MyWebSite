@@ -44,10 +44,6 @@ else{
 
 
 }
-
-
-
-
 function close(){
 
 	var messageDiv = document.getElementById("zambyuxDiv");
