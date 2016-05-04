@@ -6,7 +6,13 @@ $(document).ready(function(){
 
 			if (addText.length > 0) {
 	            $("#firstUl").append("<li class = 'all-li'>" + addText + "<button  class ='all-buttons'>Delete</button>" + "</li>");
-	        } else {
+				var btn = $(".all-buttons");
+				
+				btn.on('click', function(e) {
+					$(this).parent().remove();
+					
+				});
+			} else {
 	            $("#hidden-div").css("display","block");
 	          	$("#add-button").prop('disabled', true);
 	            $("#reset-button").prop('disabled', true);
